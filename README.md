@@ -1,6 +1,6 @@
 # Calculator-on-C++
 
-Calculator operations:
+Calculator operations:<br>
 +<br>
 -<br>
 /<br>
