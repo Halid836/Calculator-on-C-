@@ -1,5 +1,5 @@
 # Calculator-on-C++
-[Calculator]
+![Calculator]("logoc++.png")
 
 Calculator operations:<br>
 +<br>
