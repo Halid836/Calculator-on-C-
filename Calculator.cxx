@@ -13,27 +13,31 @@ int main(int argc, char *argv[])
 	char oper;
 	cin>>oper;
 	
-	if(oper ==  '+')
+	switch(oper)
 	{
+		case '+' :
 		cout<<"Result:"<<num1+b;
-		return 0;
-}
-
-if(oper == '-')
-{
-	cout<<"Result:"<<num1-b;
-}
-
-if(oper == '*')
-{
-	cout<<"Result:"<<num1*b;
-}
-if (oper == '%')
-{
-	cout<<"Result'"<<num1%b;
-}
-if (oper == '/')
-{
-	cout<<"Result:"<<num1/b;
+		break;
+		
+		case '-' :
+		cout<<"Result:"<<num1-b;
+		break;
+		case '*' :
+			cout<<"Result:"<<num1*b;
+			break;
+			
+		case '%' :
+			cout<<"Result'"<<num1%b;
+			break;
+			
+		case '/' :
+			cout<<"Result:"<<num1/b;
+			break;
+			
+		default :
+		cout<<"Error!";
+		break;
+			
+			return 0;
 }
 }
